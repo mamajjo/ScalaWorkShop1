@@ -44,6 +44,14 @@ object Hello extends App {
 --> prawym przyciskiem myszy podświetl obiekt Hello oraz naciśnij 'Run 'Hello' '
 
 ## Rozpoczęcie pracy ze Scalą (SBT)
+#### VS CODE Scala set up
+
+Pobrać rozszerzenia:
+
+```
+scalameta.metals
+scala-lang.scala
+```
 
 SBT to narzędzie do kompilowania, uruchamiania, testowania projektów utworzonych w Scali. 
 
@@ -57,8 +65,7 @@ https://www.scala-sbt.org/release/docs/Setup.html
 sbt new scala/hello-world.g8
 ```
 Gdy zostaniemy poproszeni wpisujemy nazwę projektu.
-Struktura katalogów: 
-.
+Struktura katalogów:
 ```
 ├── target
 (....)
@@ -73,7 +80,7 @@ Struktura katalogów:
 └── workshop1.md
 ```
 
-3. Wewnątrz folderu projektu uruchamiamy sbt a następnie ~run (tylda spowoduje ponowne uruchomienia projektu za każdym zapisaniem pliku.)
+3. W VS code otwieramy folder z plikiem build.sbt. Wewnątrz folderu projektu uruchamiamy sbt a następnie ~run (tylda spowoduje ponowne uruchomienia projektu za każdym zapisaniem pliku.)
 
 ```
 sbt
@@ -88,12 +95,5 @@ https://index.scala-lang.org/
 ```
 Po następnym uruchomieniu programu, sbt pobierze brakujące dependencje
 
-#### 
-VS CODE set up - pobrać rozszerzenia: 
-```
-scalameta.metals
-scala-lang.scala
-```
 ##### Troubleshooting 
 
-Jeżeli Scala Metal nie wyłapuje workspace to można spróbować przenieść build.properties do katalogi, gdzie zawiera się build.sbt
