@@ -1,0 +1,11 @@
+
+### Metals ###
+.metals/
+.bloop/
+
+### Scala ###
+*.class
+*.log
+*.metals
+
+target/
