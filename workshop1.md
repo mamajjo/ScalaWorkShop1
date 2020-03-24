@@ -96,18 +96,54 @@ object Hello extends App {
 --> prawym przyciskiem myszy podświetl obiekt Hello oraz naciśnij 'Run 'Hello' '
 
 ##### Troubleshooting 
-
+Włączyć i wyłączyć IDE - bardzo pomaga w działaniu
 
 # Workshop
 
-Cały kod w projekcie Scala musi się zawierać w folderze src projektu. 
+Cały kod w projekcie Scala musi się zawierać w folderze src projektu.
 
 ## Main object and method
 
 Głównym obiektem w programie napisanym w Scali będzie obiekt, który dziedziczy po klasie App -> ta klasa zamienia obiekt w program wykonywalny.
 
+## Vals and vars
+
+W Scali dostępne są obiekty:
+#### Value
+Zmienne poprzedzone słowem kluczowym val. Dzięki temu deklaruje się zmienną, której nie można zmienić w programie.
+
+#### Variable 
+Zmienne poprzedzone słowem kluczowym var. Są one zmienne w trakcie trwania programu.
+
+<test valsAndVars>
+
+## Classes and access modifiers
+
+źródła:
+```
+https://stackoverflow.com/questions/1755345/difference-between-object-and-class-in-scala
+https://docs.scala-lang.org/tour/traits.html
+```
+
+W Scali dostępne są dwa sposoby na tworzenie obiektów:
+
+1) Implementacja klasy, następnie tworzenie instancji danej klasy. Otrzymujemy obiekt klasy X. Może dziedziczyć po Traits i Classes
+
+2) Tworzenie instancji obiektu klasy anonimowej - wykorzystanie wzorca projektowego singleton. Ten obiekt może rozszerzać (extends)  cechę (Trait - odpowiednik interface'ów w Javie, jednak posiadający ewentualne pola) (przykład można zobaczyć przy tworzeniu obiektu udającego aplikację.)
+
+## Constructors
+W Scali konstruktory 
+
+## Methods and fields
 
 
+## Uniform access principle
+
+
+## Parent classes and inheritance
+
+
+## SBT and scala tools
 
 ## Uniform Access Principle
 
