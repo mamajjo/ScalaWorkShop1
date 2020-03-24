@@ -16,6 +16,9 @@ class Animal(val name: String, _secretTrait: String, var weight: Float = 0) {
         if (newSecret == "") _secretTraitToChange else newSecret
     }
 
+    //unified access princalple
+    val speak = () => "I'm " + name
+
 }
 
 
@@ -25,12 +28,17 @@ class AnimalTests extends FunSuite{
         //use setter to set value and check it's value
 
     }
-    test("Animal.weight"){
+    test("Animal.weightDefault"){
         //check if equals 0
 
         //change value and check it's value
     }
-    test("Animal.weigth") {
+    test("Animal.weight") {
+        // save weight value to variable and check it. 
         // use public member to change it's value
+    }
+    test("Animal.speak"){
+        //
+        assert(a.speak() == "I'm Rex")
     }
 }

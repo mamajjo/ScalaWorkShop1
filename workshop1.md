@@ -132,7 +132,7 @@ W Scali dostępne są dwa sposoby na tworzenie obiektów:
 2) Tworzenie instancji obiektu klasy anonimowej - wykorzystanie wzorca projektowego singleton. Ten obiekt może rozszerzać (extends)  cechę (Trait - odpowiednik interface'ów w Javie, jednak posiadający ewentualne pola) (przykład można zobaczyć przy tworzeniu obiektu udającego aplikację.)
 
 ## Constructors
-W Scali konstruktory 
+W Scali konstruktory klas zawarte są przy jej definicji. Zmienne bez słowa kluczowego val/var stają private val. Atrybuty mogą otrzymać wartość domyślną. 
 
 ## Methods and fields
 
