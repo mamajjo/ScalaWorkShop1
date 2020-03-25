@@ -1,13 +1,6 @@
-##### TODO
-
-    Main object and method
-    Vals and vars
-    Classes and access modifiers
-    Constructors
-    Methods and fields
-    Uniform access principle
-    Parent classes and inheritance
-    SBT and scala tools
+# Czemu skala?
+Jest to język programowania, w którym składnia pozwala na pisanie mniejszej ilości kodu. Skutkiem tego jest wyższy próg wejścia do programowania w tym języku, ponieważ wiele rzeczy dzieję się "pod spodem" krótszych instrukcji. Obecnie wykorzystywany jest w projektach związanych z uczeniem maszynowym, analizą danych. Można w nim wykorzystywać biblioteki napisane w Javie, ponieważ jego kod również jest kompilowany przez JVM. Jest 12. pod względem popularności.
+>https://jaki-jezyk-programowania.pl/technologie/scala/
 
 # Scala workshop part 1
 
@@ -31,9 +24,9 @@ scala-lang.scala
 SBT to narzędzie do kompilowania, uruchamiania, testowania projektów utworzonych w Scali. 
 
 1. Pobrać pakiet SBT
-```
-https://www.scala-sbt.org/release/docs/Setup.html
-```
+
+>https://www.scala-sbt.org/release/docs/Setup.html
+
 
 2. Otworzyć folder, gdzie chcemy stworzyć projekt oraz wpisujemy komendę:
 ```
@@ -48,7 +41,7 @@ Struktura katalogów:
 │   ├── build.sbt // plik definiujący sbt
 │   ├── project // folder z pluginami i dependencjami
 │   │   └── build.properties
-│   └── src
+│   └── src //Folder w którym będzie cały nasz program
 │       └── main
 │           └── scala // w tym folderze trzymamy cały kod programu
 │               └── Main.scala // wygenerowany z template'u Hello World
@@ -64,10 +57,11 @@ sbt
 
 4. Dodawanie dependencji do projektu: otwórz plik build.sbt i dodaj linię:
 ```
-libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.2"
-Więcej bibliotek znajdziesz na:
-https://index.scala-lang.org/
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.8" % "test"
 ```
+Więcej bibliotek znajdziesz na:
+>https://index.scala-lang.org/
+
 Po następnym uruchomieniu programu, sbt pobierze brakujące dependencje
 
 
@@ -95,12 +89,29 @@ object Hello extends App {
 
 --> prawym przyciskiem myszy podświetl obiekt Hello oraz naciśnij 'Run 'Hello' '
 
-##### Troubleshooting 
+### Troubleshooting 
 Włączyć i wyłączyć IDE - bardzo pomaga w działaniu
 
 # Workshop
 
-Cały kod w projekcie Scala musi się zawierać w folderze src projektu.
+
+## SBT and scala tools
+SBT to narzędzie do budowania projektów napisanych w Scali. Jest ono podobne np. do Maven
+Można za jego pomocą pobierać template'y projektów, bądź tworzyć nowe.
+Aby uruchomić testy, należy wpisać 
+```
+testOnly
+```
+
+SBT daje szerokie możliwości:
+
+1) Dokeryzowanie aplikacji
+2) Dodawanie podprojektów
+3) tworzenie dystrybucji programu
+
+i wiele wiecej:
+> https://www.scala-sbt.org/1.x/docs/sbt-by-example.html
+
 
 ## Main object and method
 
@@ -120,10 +131,8 @@ Zmienne poprzedzone słowem kluczowym var. Są one zmienne w trakcie trwania pro
 ## Classes and access modifiers
 
 źródła:
-```
-https://stackoverflow.com/questions/1755345/difference-between-object-and-class-in-scala
-https://docs.scala-lang.org/tour/traits.html
-```
+
+>https://stackoverflow.com/questions/1755345/difference-between-object-and-class-in-scala
 
 W Scali dostępne są dwa sposoby na tworzenie obiektów:
 
@@ -140,13 +149,13 @@ W Scali konstruktory klas zawarte są przy jej definicji. Zmienne bez słowa klu
 
 ## Parent classes and inheritance
 
-
-## SBT and scala tools
-SBT to narzędzie do budowania projektów napisanych w Scali. Jest ono podobne np. do Maven
+Wytłumaczone kodem.
 
 ## Uniform Access Principle
 
-What this principle is saying is that an API should not break if one of its public interfaces changes from returning a simple value to returning a value from a computation.
+'What this principle is saying is that an API should not break if one of its public interfaces changes from returning a simple value to returning a value from a computation.'
+
+Wartość zwrócona przez stałą zmienną powinna być taka sama, jak obliczona przez funkcję.
 
 
 # Training

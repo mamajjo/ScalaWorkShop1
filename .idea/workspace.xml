@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1005058-8782-4b11-89a5-96b637d86cf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/scala/Classes/AnimalClassTests.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/ClassesTests/Animal.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Classes/Animal.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/InheritenceAndAccess/InheritenceTests.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/InheritenceAndAccess/InheritenceTests.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +187,7 @@
       <workItem from="1585053383221" duration="2826000" />
       <workItem from="1585061037792" duration="201000" />
       <workItem from="1585074364141" duration="5124000" />
-      <workItem from="1585116785445" duration="6780000" />
+      <workItem from="1585116785445" duration="6970000" />
     </task>
     <task id="LOCAL-00001" summary="Added inheritence, abstract class, access modifiers">
       <created>1585124490386</created>
@@ -199,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585124490386</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="After small cleanup">
+      <created>1585128015908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585128015908</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,36 +211,43 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added inheritence, abstract class, access modifiers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added inheritence, abstract class, access modifiers" />
+    <MESSAGE value="After small cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="After small cleanup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2138" y="28" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585126948877">
       <screen x="1440" y="-273" width="1920" height="1057" />
     </state>
     <state x="2138" y="28" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585126948877" />
-    <state x="1976" y="-230" key="CommitChangelistDialog2" timestamp="1585124490133">
-      <screen x="1440" y="-273" width="1920" height="1057" />
+    <state x="1976" y="-231" key="CommitChangelistDialog2" timestamp="1585128015730">
+      <screen x="1440" y="-273" width="1920" height="1022" />
     </state>
+    <state x="1976" y="-231" key="CommitChangelistDialog2/1440.-273.1920.1022/0.23.1440.877@1440.-273.1920.1022" timestamp="1585128015730" />
     <state x="1976" y="-230" key="CommitChangelistDialog2/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585124490133" />
-    <state width="1878" height="271" key="GridCell.Tab.0.bottom" timestamp="1585126995949">
-      <screen x="1440" y="-273" width="1920" height="1057" />
+    <state width="1451" height="271" key="GridCell.Tab.0.bottom" timestamp="1585128605901">
+      <screen x="1440" y="-273" width="1920" height="1022" />
     </state>
+    <state width="1451" height="271" key="GridCell.Tab.0.bottom/1440.-273.1920.1022/0.23.1440.877@1440.-273.1920.1022" timestamp="1585128605901" />
     <state width="1878" height="271" key="GridCell.Tab.0.bottom/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585126995949" />
-    <state width="1878" height="271" key="GridCell.Tab.0.center" timestamp="1585126995948">
-      <screen x="1440" y="-273" width="1920" height="1057" />
+    <state width="1451" height="271" key="GridCell.Tab.0.center" timestamp="1585128605900">
+      <screen x="1440" y="-273" width="1920" height="1022" />
     </state>
+    <state width="1451" height="271" key="GridCell.Tab.0.center/1440.-273.1920.1022/0.23.1440.877@1440.-273.1920.1022" timestamp="1585128605900" />
     <state width="1878" height="271" key="GridCell.Tab.0.center/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585126995948" />
-    <state width="1878" height="271" key="GridCell.Tab.0.left" timestamp="1585126995947">
-      <screen x="1440" y="-273" width="1920" height="1057" />
+    <state width="1451" height="271" key="GridCell.Tab.0.left" timestamp="1585128605900">
+      <screen x="1440" y="-273" width="1920" height="1022" />
     </state>
+    <state width="1451" height="271" key="GridCell.Tab.0.left/1440.-273.1920.1022/0.23.1440.877@1440.-273.1920.1022" timestamp="1585128605900" />
     <state width="1878" height="271" key="GridCell.Tab.0.left/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585126995947" />
-    <state width="1878" height="271" key="GridCell.Tab.0.right" timestamp="1585126995949">
-      <screen x="1440" y="-273" width="1920" height="1057" />
+    <state width="1451" height="271" key="GridCell.Tab.0.right" timestamp="1585128605900">
+      <screen x="1440" y="-273" width="1920" height="1022" />
     </state>
+    <state width="1451" height="271" key="GridCell.Tab.0.right/1440.-273.1920.1022/0.23.1440.877@1440.-273.1920.1022" timestamp="1585128605900" />
     <state width="1878" height="271" key="GridCell.Tab.0.right/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585126995949" />
-    <state x="2000" y="-23" key="Vcs.Push.Dialog.v2" timestamp="1585124492478">
-      <screen x="1440" y="-273" width="1920" height="1057" />
+    <state x="2000" y="-31" key="Vcs.Push.Dialog.v2" timestamp="1585128017533">
+      <screen x="1440" y="-273" width="1920" height="1022" />
     </state>
+    <state x="2000" y="-31" key="Vcs.Push.Dialog.v2/1440.-273.1920.1022/0.23.1440.877@1440.-273.1920.1022" timestamp="1585128017533" />
     <state x="2000" y="-23" key="Vcs.Push.Dialog.v2/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585124492478" />
   </component>
 </project>

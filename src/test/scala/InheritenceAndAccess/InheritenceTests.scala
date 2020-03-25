@@ -11,4 +11,5 @@ class InheritenceTests extends FunSuite {
   test("Phone._getDeviceInfo") {
     assert(p.getIRMessage == "This is message")
   }
+  // test to check if number is changable after workshop
 }
