@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1005058-8782-4b11-89a5-96b637d86cf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/InheritenceAndAccess/AccessModifiersTests.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/InheritenceAndAccess/Device.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/InheritenceAndAccess/InheritenceTests.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/InheritenceAndAccess/IrPhone.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/InheritenceAndAccess/Smartphone.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/InheritenceAndAccess/Telephone.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/Classes/AnimalClassTests.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/ClassesTests/Animal.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/ClassesTests/Animal.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/InheritenceAndAccess/Telegram.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/InheritenceAndAccess/Telegram.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/valsAndVars/valsAndVarsTests.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/valsAndVars/valsAndVarsTests.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop1.md" beforeDir="false" afterPath="$PROJECT_DIR$/workshop1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/ClassesTests/Animal.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Classes/Animal.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/InheritenceAndAccess/InheritenceTests.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/InheritenceAndAccess/InheritenceTests.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +58,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeviceLists">
+  <component name="RunManager" selected="ScalaTest.AnimalClassTests">
     <configuration name="DeviceLists" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="DeviceLists" />
       <module name="hello-world" />
@@ -102,6 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AnimalClassTests" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="hello-world" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="Classes.AnimalClassTests" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InheritenceTests" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="hello-world" />
       <option name="allowRunningInParallel" value="false" />
@@ -122,33 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="valsAndVars" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="hello-world" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Class" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="javaOptions" value="" />
-      <option name="jrePath" />
-      <option name="searchTest" value="Across module dependencies" />
-      <option name="showProgressMessages" value="true" />
-      <option name="testArgs" value="" />
-      <option name="testClassPath" value="valsAndVars.valsAndVars" />
-      <option name="useSbt" value="false" />
-      <option name="useUiWithSbt" value="false" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.AnimalClassTests" />
         <item itemvalue="Application.DeviceLists" />
         <item itemvalue="Application.Main" />
         <item itemvalue="ScalaTest.InheritenceTests" />
         <item itemvalue="ScalaTest.AccessModifiersTests" />
-        <item itemvalue="ScalaTest.valsAndVars" />
       </list>
     </recent_temporary>
   </component>
@@ -199,33 +190,53 @@
       <workItem from="1585053383221" duration="2826000" />
       <workItem from="1585061037792" duration="201000" />
       <workItem from="1585074364141" duration="5124000" />
-      <workItem from="1585116785445" duration="4912000" />
+      <workItem from="1585116785445" duration="6780000" />
     </task>
+    <task id="LOCAL-00001" summary="Added inheritence, abstract class, access modifiers">
+      <created>1585124490386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585124490386</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added inheritence, abstract class, access modifiers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added inheritence, abstract class, access modifiers" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1976" y="-230" key="CommitChangelistDialog2" timestamp="1585124466829">
+    <state x="2138" y="28" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585126948877">
       <screen x="1440" y="-273" width="1920" height="1057" />
     </state>
-    <state x="1976" y="-230" key="CommitChangelistDialog2/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585124466829" />
-    <state width="1878" height="271" key="GridCell.Tab.0.bottom" timestamp="1585124466932">
+    <state x="2138" y="28" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585126948877" />
+    <state x="1976" y="-230" key="CommitChangelistDialog2" timestamp="1585124490133">
       <screen x="1440" y="-273" width="1920" height="1057" />
     </state>
-    <state width="1878" height="271" key="GridCell.Tab.0.bottom/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585124466932" />
-    <state width="1878" height="271" key="GridCell.Tab.0.center" timestamp="1585124466910">
+    <state x="1976" y="-230" key="CommitChangelistDialog2/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585124490133" />
+    <state width="1878" height="271" key="GridCell.Tab.0.bottom" timestamp="1585126995949">
       <screen x="1440" y="-273" width="1920" height="1057" />
     </state>
-    <state width="1878" height="271" key="GridCell.Tab.0.center/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585124466910" />
-    <state width="1878" height="271" key="GridCell.Tab.0.left" timestamp="1585124466910">
+    <state width="1878" height="271" key="GridCell.Tab.0.bottom/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585126995949" />
+    <state width="1878" height="271" key="GridCell.Tab.0.center" timestamp="1585126995948">
       <screen x="1440" y="-273" width="1920" height="1057" />
     </state>
-    <state width="1878" height="271" key="GridCell.Tab.0.left/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585124466910" />
-    <state width="1878" height="271" key="GridCell.Tab.0.right" timestamp="1585124466931">
+    <state width="1878" height="271" key="GridCell.Tab.0.center/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585126995948" />
+    <state width="1878" height="271" key="GridCell.Tab.0.left" timestamp="1585126995947">
       <screen x="1440" y="-273" width="1920" height="1057" />
     </state>
-    <state width="1878" height="271" key="GridCell.Tab.0.right/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585124466931" />
+    <state width="1878" height="271" key="GridCell.Tab.0.left/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585126995947" />
+    <state width="1878" height="271" key="GridCell.Tab.0.right" timestamp="1585126995949">
+      <screen x="1440" y="-273" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="271" key="GridCell.Tab.0.right/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585126995949" />
+    <state x="2000" y="-23" key="Vcs.Push.Dialog.v2" timestamp="1585124492478">
+      <screen x="1440" y="-273" width="1920" height="1057" />
+    </state>
+    <state x="2000" y="-23" key="Vcs.Push.Dialog.v2/1440.-273.1920.1057/0.23.1440.842@1440.-273.1920.1057" timestamp="1585124492478" />
   </component>
 </project>

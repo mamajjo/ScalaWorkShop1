@@ -4,8 +4,8 @@ import org.scalatest.FunSuite
 
 class InheritenceTests extends FunSuite {
   val t = new Telegram(321)
-  test("Telegram._getDeviceInfo"){
-    assert("cannot get info" == "cannot get info")
+  test("Telegram._protectedVar"){
+    assert("cannot get value of protected Var" == "cannot get value of protected Var")
   }
   val p = new IrPhone(123, 606245123)
   test("Phone._getDeviceInfo") {
