@@ -135,16 +135,20 @@ W Scali dostępne są dwa sposoby na tworzenie obiektów:
 W Scali konstruktory klas zawarte są przy jej definicji. Zmienne bez słowa kluczowego val/var stają private val. Atrybuty mogą otrzymać wartość domyślną. 
 
 ## Methods and fields
-
-
-## Uniform access principle
+- metody klasy mogą być enkapsulowane - domyślnie jest to public. (czy można użyć słowa kluczowego 'public')
 
 
 ## Parent classes and inheritance
 
 
 ## SBT and scala tools
+SBT to narzędzie do budowania projektów napisanych w Scali. Jest ono podobne np. do Maven
 
 ## Uniform Access Principle
 
 What this principle is saying is that an API should not break if one of its public interfaces changes from returning a simple value to returning a value from a computation.
+
+
+# Training
+
+1) Zmodyfikować klasę Phone, tak aby móc zmienić numer telefonu. Wykazać w testach

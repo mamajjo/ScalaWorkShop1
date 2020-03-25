@@ -30,8 +30,12 @@ class AnimalTests extends FunSuite{
     }
     test("Animal.weightDefault"){
         //check if equals 0
+        assert(a.weight == 0)
 
         //change value and check it's value
+        val double = 4.5
+        a.weight = double.toFloat
+        assert(a.weight == 5.5)
     }
     test("Animal.weight") {
         // save weight value to variable and check it. 

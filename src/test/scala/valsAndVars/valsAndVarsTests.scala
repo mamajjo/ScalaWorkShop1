@@ -1,7 +1,7 @@
 package valsAndVars
 import org.scalatest.FunSuite
 
-class valsAndVars() extends FunSuite {
+class valsAndVars extends FunSuite {
     test("Immutable Values") {
         val x:Int = 1 + 1
         assert(x == 2)
